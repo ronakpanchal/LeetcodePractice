@@ -32,6 +32,6 @@ public class BinaryTreeZigZagLevelOrderTraversal {
 		    result.add(list);
 		}
 		return result;
-    }
+    	}
 
 }
