@@ -17,6 +17,6 @@ public class InorderSucessorInBST {
 	            else curr = curr.right;
 	        }
 	        return result;
-	    }
+	  }
 
 }
