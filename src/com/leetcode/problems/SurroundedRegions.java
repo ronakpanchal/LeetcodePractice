@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class SurroundedRegions {
 	
-	private int[][] dir = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    private int[][] dir = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     
     public void solve(char[][] board) {
         for (int i = 0;i < board.length;i++) {
