@@ -21,8 +21,7 @@ public class CloneGraph {
 	}
 
 	public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
-		if (node == null)
-			return null;
+		if (node == null) return null;
 		UndirectedGraphNode clone = new UndirectedGraphNode(node.label);
 		Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
 		map.put(node, clone);
