@@ -7,14 +7,14 @@ public class BattleshipsInBoard {
 		int n = board[0].length;
 		int cnt = 0;
 		for (int i = 0; i < m; i++) {
-			for (int j = 0; j < n; j++) {
-				if (board[i][j] == 'X') {
-					countBattleships(board, i, j, 'V');
-					board[i][j] = 'X';
-					countBattleships(board, i, j, 'H');
-					cnt++;
-				}
+		     for (int j = 0; j < n; j++) {
+			if (board[i][j] == 'X') {
+				countBattleships(board, i, j, 'V');
+				board[i][j] = 'X';
+				countBattleships(board, i, j, 'H');
+				cnt++;
 			}
+		     }
 		}
 		return cnt;
 	}
