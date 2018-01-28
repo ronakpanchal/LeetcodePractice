@@ -2,7 +2,7 @@ package com.leetcode.problems;
 
 public class DivideTwoIntegers {
 	
-    public int divide(int dividend, int divisor) {
+	public int divide(int dividend, int divisor) {
         long result = divideLong(Long.valueOf(dividend), Long.valueOf(divisor));
         return result > Integer.MAX_VALUE?Integer.MAX_VALUE:(int)result;
     }

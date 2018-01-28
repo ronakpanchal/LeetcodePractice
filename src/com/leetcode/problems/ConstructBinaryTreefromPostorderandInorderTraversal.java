@@ -2,7 +2,7 @@ package com.leetcode.problems;
 
 public class ConstructBinaryTreefromPostorderandInorderTraversal {
 	
-    private static int index = 0;
+	private static int index = 0;
     
     public TreeNode buildTree(int[] inorder, int[] postorder) {
          index = inorder.length-1;

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Vector2D implements Iterator<Integer> {
 	
-    private Iterator<List<Integer>> itr;
+	private Iterator<List<Integer>> itr;
     private Iterator<Integer> listIterator;
 
     public Vector2D(List<List<Integer>> vec2d) {
