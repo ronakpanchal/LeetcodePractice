@@ -8,7 +8,7 @@ public class CombinationSum2 {
 	
 	
 	
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+	public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         combinationSum2(candidates, result, new ArrayList<Integer>(), 0, target);
